@@ -11,7 +11,7 @@ GAML的基本数据类型 有**整数int 、浮点数float、字符串string**�
 
 ### 变量
 
-在GAML语言中，声明一个变量需要显式的声明变量的数据类型+数据名。在GAMA窗口右下角的交互式命令行输入以下命令并查看其输出：
+在GAML语言中，声明一个变量需要显式的声明变量的数据类型+数据名。
 
 ```text
 string text;                // 在GAML中'//'是注释，表示其后的内容不会被认为是代码                                               
@@ -62,14 +62,74 @@ map<string,int> scale_count <- ["L"::50, "M"::40, "S"::10];          //将'L'、
 GAML支持大部分的数学符号的直接运算，如加\(+\)、减\(-\)、乘\(\*\)、除\(/\)、乘幂\(^\)等，此外还有余弦\(cos\)、正弦\(sin\)、正切\(tan\)、平方根\(sqrt\)、四舍五入\(round\)等运算。更多计算操作可以查看[官方文档](https://gama-platform.github.io/wiki/Operators)
 
 ```text
-int a <- 5*3
+int a <- 5*3;
+int a <- 5^2;              
+int a <- int(5/3);        //取整
+int a <- round(5/2);      //四舍五入
+int a <- 5 mod 3;         //取余
+float a <- sin(90);       //sin函数
+int a <- rnd(100);        //随机数
 ```
 
 ### 逻辑运算
 
+GAML逻辑运算符主要有 **and、or** 以及 **！**\(表示not\)，**！** 在使用时应该放在表达式的前面。
+
+```text
+bool a <- true or false;
+bool b <- true and false;
+bool c <- ! true;
+```
+
+### 比较运算
+
+GAML语言中需要注意的时**“=”**表示相等关系，而不是像python里面的赋值，**“!=”**表示不相等关系，此外**“&lt;”、“&gt;”、“&lt;=”、“&gt;=”**都是基本的比较运算符。
+
+```text
+bool a <- 3>5;
+bool a <- 3!=5;
+```
+
 ### 条件语句
 
+GAML基本的条件语句结构为if/else结构，条件包含在小括号\(\)内，执行语句包含在大括号{}内。
+
+```text
+int index <- rnd(100);
+if (index <10){
+    write 'index is smaller than 10';
+}
+else if (index>=10 and index<80){
+    write 'index is bigger than 10 but smaller than 80';
+}
+else {
+    write 'index is bigger than 80';
+}
+```
+
+GAML还提供一种使用**？**来简化表达的条件语句。
+
+```text
+string a <- (1>3) ? "this is true" : "this is false";
+//此句等价于
+if (1>3){
+    string a <- "this is true";
+}
+else{
+    string a <- "this is false";
+}
+```
+
 ### 循环语句
+
+GAML使用关键字**loop**来实现循环语句。
+
+```text
+loop times: 2 { write 'hello world';}   //循环两次
+loop while: true{write 'hello world';}  //无限循环
+loop i from: 0 to: 5 step:2 {write i;}  //输出0-2-4
+loop i over: [0,2,5]{write i;}          //输出0-2-5
+```
 
 
 
