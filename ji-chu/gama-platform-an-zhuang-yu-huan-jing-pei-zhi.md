@@ -1,4 +1,4 @@
-# GAMA Platform安装与环境配置
+# GAMA Platform安装
 
 ### 系统要求
 
