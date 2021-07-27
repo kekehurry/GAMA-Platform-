@@ -31,6 +31,14 @@ GAML中，关键字list表示列表，列表可以直接显式地声明列表中
  list l_2 <- [4,5,'o','j',[1,2]]; //此时列表中元素有不同的数据类型 
  int i <- length(l_1);            //返回列表长度
  string s <- l_2[2];              //返回l_2列表第三个元素
+ int i <- l_2 at 0;               //返回l_2列表第一个元素
+ int index <- l_2 index_of 5;     //返回l_2列表中5的索引值
+ remove from:l_2 index:1;         //删除l_2列表中索引值为1的元素(5)
+ remove item:'j' from:l_2;        //删除l_2列表中的'j'
+ add item: 9 to: l_2 at: 2;       //向l_2列表索引2的位置添加元素9
+ add 0 to: l_2;                   //向l_2列表末尾添加0
+ put 2 in: l_2 at:0;              //向l_2列表开始添加2
+ put 3 in: l_2 key:2;             //向l_2列表索引2的位置添加元素3
 ```
 
 GAML中，matrix表示一个二维矩阵或者一个一维向量。
@@ -45,10 +53,17 @@ int a <- mat3[0,0];                 //返回mat3矩阵第1列第1行的元素
 GAML中，map表示一个存贮键\(key\)-值\(value\)对的字典，在字典中的每一对都表示为`key::value` 。
 
 ```text
-
+map<string,rgb> color_per_type <- ["T"::#gamared,"A"::#gamagreen];   //将'T'、'A'分别对应红色、绿色
+map<string,int> scale_count <- ["L"::50, "M"::40, "S"::10];          //将'L'、'M'、'S'分别对应50、40、10
 ```
 
 ### 数学运算
+
+GAML支持大部分的数学符号的直接运算，如加\(+\)、减\(-\)、乘\(\*\)、除\(/\)、乘幂\(^\)等，此外还有余弦\(cos\)、正弦\(sin\)、正切\(tan\)、平方根\(sqrt\)、四舍五入\(round\)等运算。更多计算操作可以查看[官方文档](https://gama-platform.github.io/wiki/Operators)
+
+```text
+int a <- 5*3
+```
 
 ### 逻辑运算
 
