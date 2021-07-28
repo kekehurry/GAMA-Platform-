@@ -42,3 +42,7 @@ grid vegetation_cell width: 50 height: 50 neighbors: 4 {
 }
 ```
 
+> Tips: GAML中颜色的表示可以用\#+颜色名表示，如\#blue、\#red 等，[颜色列表](https://gama-platform.github.io/wiki/Index#Constants_and_colors)可以查看官方文档
+
+tips:
+
