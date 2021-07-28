@@ -31,7 +31,9 @@ global {
 grid vegetation_cell width: 50 height: 50 neighbors: 4 {
 	//定义网格属性
 	//food代表每个网格的能量
+	//max_food每个网格最大能量值
 	float max_food <- 1.0;
+	// 每次循环
 	float food_prod <- rnd(0.01);
 	float food <- rnd(1.0) max: max_food update: food + food_prod;
 	rgb color <- rgb(int(255 * (1 - food)), 255, int(255 * (1 - food))) update: rgb(int(255 * (1 - food)), 255, int(255 * (1 - food)));
