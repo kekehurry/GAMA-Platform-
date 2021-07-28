@@ -14,6 +14,7 @@
   * [Step1: 基本模型](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step1-ji-ben-mo-xing.md)
   * [Step2: 代理行为的编写](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step2-dai-li-hang-wei-de-bian-xie.md)
   * [Step3: 父、子族群的继承](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step3-fu-zi-zu-qun-de-ji-cheng.md)
+  * [Step4: 自定义数据输出](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step4-zi-ding-yi-shu-ju-shu-chu.md)
 * [交通仿真模型](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing.md)
 * [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
