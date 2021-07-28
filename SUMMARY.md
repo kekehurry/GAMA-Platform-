@@ -6,7 +6,7 @@
 
 * [GAMA Platform安装](ji-chu/gama-platform-an-zhuang-yu-huan-jing-pei-zhi.md)
 * [GAML语言基础](ji-chu/gaml-yu-yan-ji-chu.md)
-* [GAML语言模型结构](ji-chu/gaml-yu-yan-mo-xing-jie-gou.md)
+* [GAMA模型结构](ji-chu/gaml-yu-yan-mo-xing-jie-gou.md)
 
 ## GAMA模型的建立
 

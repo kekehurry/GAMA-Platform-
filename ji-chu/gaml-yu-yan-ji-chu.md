@@ -59,7 +59,7 @@ map<string,int> scale_count <- ["L"::50, "M"::40, "S"::10];          //将'L'、
 
 ### 数学运算
 
-GAML支持大部分的数学符号的直接运算，如加\(+\)、减\(-\)、乘\(\*\)、除\(/\)、乘幂\(^\)等，此外还有余弦\(cos\)、正弦\(sin\)、正切\(tan\)、平方根\(sqrt\)、四舍五入\(round\)等运算。更多计算操作可以查看[官方文档](https://gama-platform.github.io/wiki/Operators)
+GAML支持大部分的数学符号的直接运算，如加\(+\)、减\(-\)、乘\(\*\)、除\(/\)、乘幂\(^\)等，此外还有余弦\(cos\)、正弦\(sin\)、正切\(tan\)、平方根\(sqrt\)、四舍五入\(round\)等运算，更多计算操作可以查看[官方文档](https://gama-platform.github.io/wiki/Operators)
 
 ```text
 int a <- 5*3;
