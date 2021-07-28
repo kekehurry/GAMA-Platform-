@@ -10,7 +10,8 @@
 
 ## GAMA模型的建立
 
-* [网格仿真模型](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing.md)
+* [网格仿真模型](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/README.md)
+  * [Step1: 基本模型](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step1-ji-ben-mo-xing.md)
 * [交通仿真模型](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing.md)
 * [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
