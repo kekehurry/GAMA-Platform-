@@ -161,11 +161,11 @@ species predator parent: generic_species {
     //初始化显示大小
     float size <- 1.0;
     //初始化颜色
-    rgb color <- #blue; 
+    rgb color <- #red; 
     //初始化最大能量值
     float max_energy <- predator_max_energy ;
-    //初始化每次最大进食量
-    float max_transfert <- predator_max_transfert ;
+    //初始化每次进食量
+    float energy_transfert <- predator_energy_transfert ;
     //初始化每次能量消耗值
     float energy_consum <- predator_energy_consum ;
     //初始化繁殖概率
@@ -176,8 +176,6 @@ species predator parent: generic_species {
     float energy_reproduce <- predator_energy_reproduce ;
     //重写energy_from_eat函数
     float energy_from_eat {
-    //初始化食肉动物能量转移量
-    float energy_transfert <- predator_energy_transfert ;
     //列出所在网格内的食草动物
     list<prey> reachable_preys <- prey inside (my_cell); 
     //如果食草动物列表不为空   
@@ -238,7 +236,7 @@ species generic_species {
 	//颜色
 	rgb color;
 	//所在的草地网格
-	vegetation_cell my_cell;
+	vegetation_cell my_cell <- one_of(vegetation_cell);
 	//最大能量值
 	float max_energy;
 	//每次进食量
@@ -415,6 +413,8 @@ experiment prey_predator type: gui {
 			grid vegetation_cell lines: #black;
 			//以prey族中aspect定义的base方式显示prey族
 			species prey aspect: base;
+			//以predator族中aspect定义的base方式显示prey族
+			species predator aspect:base;
 		}
 	}
 }
