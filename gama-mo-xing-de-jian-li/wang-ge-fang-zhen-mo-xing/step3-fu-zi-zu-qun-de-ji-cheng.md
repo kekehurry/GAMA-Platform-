@@ -225,8 +225,8 @@ global {
 	init {
 		//创建食草动物数量为nb_preys_init
 		create prey number: nb_preys_init;
-		//创建食肉动物数量为nb_preys_init
-		create prey number: nb_preys_init;
+		//创建食肉动物数量为nb_predators_init
+		create predator number: nb_predators_init;
 	}
 }
 
