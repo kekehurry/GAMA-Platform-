@@ -37,7 +37,7 @@ species prey {
 
 ### 移动行为
 
-使用reflex句式每次模拟进行的行为。
+使用reflex句式编写每次模拟进行的行为。
 
 ```text
 //定义移动行为
@@ -225,6 +225,8 @@ grid vegetation_cell width: 50 height: 50 neighbors: 4 {
 	float food_prod <- rnd(0.01);
 	//每个网格初始食物量为（0-1）的随机数，每次模拟更新加food_prod，最大值为max_food
 	float food <- rnd(1.0) max: max_food update: food + food_prod;
+	//将周边距离自己为2的其他vegetation_cell存到neighbors2列表中
+	list<vegetation_cell> neighbors2  <- (self neighbors_at 2);
 	//根据食物量的大小，网格的颜色也会发生变化
 	rgb color <- rgb(int(255 * (1 - food)), 255, int(255 * (1 - food))) update: rgb(int(255 * (1 - food)), 255, int(255 * (1 - food)));
 }
@@ -251,6 +253,10 @@ experiment prey_predator type: gui {
 	}
 }
 ```
+
+此时运行模型，已经可以看到食草动物吃草的仿真模拟，并且左侧的参数调整栏有了更多的可调整参数。
+
+![4.2.1 &#x98DF;&#x8349;&#x52A8;&#x7269;&#x884C;&#x4E3A;&#x6A21;&#x62DF;](../../.gitbook/assets/image%20%286%29.png)
 
 接下来，我们通过子、父族群来完成食肉动物行为的编写。
 

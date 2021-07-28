@@ -8,13 +8,13 @@ GAMA模型的文件结构主要由工作空间（Workspace）、项目（Project
 * **项目（Project）**是一个包括原始数据和模型文件的文件夹，一个项目可以包含多个模型。在GAMA的导航栏&gt;User models&gt;右键New&gt;Gama Project，可以新建一个项目文件夹，新建的项目文件夹一般包含两个文件夹includes（用来存放关联数据的文件夹）和models（用来存放模型的文件夹）。
 * **模型（Model\)** 在models文件夹右键New&gt;Model file即可新建一个模型文件，进行仿真模拟程序的编写。
 
-![3.1 GAMA&#x6A21;&#x578B;&#x7684;&#x6587;&#x4EF6;&#x7ED3;&#x6784; ](../.gitbook/assets/image%20%285%29.png)
+![3.1 GAMA&#x6A21;&#x578B;&#x7684;&#x6587;&#x4EF6;&#x7ED3;&#x6784; ](../.gitbook/assets/image%20%288%29.png)
 
 ### 导入现有模型
 
 GAMA提供了详尽的教程和测试模型，在导航栏中Library&gt;Tutorials文件夹里有官方教程的所有模型文件，直接双击打开即可。
 
-![3.2 GAMA&#x5B98;&#x65B9;&#x6559;&#x7A0B;&#x6A21;&#x578B;](../.gitbook/assets/image%20%286%29.png)
+![3.2 GAMA&#x5B98;&#x65B9;&#x6559;&#x7A0B;&#x6A21;&#x578B;](../.gitbook/assets/image%20%285%29.png)
 
 如需导入自己已编写好的模型，在User models 右键&gt;Import&gt;Gama Project 选择模型文件的项目文件夹路径即可。
 
