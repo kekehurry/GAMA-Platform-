@@ -30,7 +30,7 @@ global {
 //创建一个50x50的四边形网格（注：neighbors控制网格的形状，如6边形、8边形等）
 grid vegetation_cell width: 50 height: 50 neighbors: 4 {
 	//定义网格属性
-	//food代表每个网格的能量值
+	//food代表每个网格的能量
 	float max_food <- 1.0;
 	float food_prod <- rnd(0.01);
 	float food <- rnd(1.0) max: max_food update: food + food_prod;
