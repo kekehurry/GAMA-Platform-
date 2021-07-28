@@ -99,7 +99,7 @@ experiment prey_predator type: gui {
 * 参数调整栏：控制在experiment中定义的可调整参数
 * 图形界面：显示在experiment中定义的图形输出
 
-![4.1.1 GAMA&#x7A97;&#x53E3;&#x7684;&#x6A21;&#x62DF;&#x754C;&#x9762;](../../.gitbook/assets/image%20%287%29.png)
+![4.1.1 GAMA&#x7A97;&#x53E3;&#x7684;&#x6A21;&#x62DF;&#x754C;&#x9762;](../../.gitbook/assets/image%20%288%29.png)
 
 本节的完整代码如下：
 
