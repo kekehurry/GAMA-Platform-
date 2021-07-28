@@ -76,7 +76,6 @@ species generic_species {
 	reflex eat {
 		energy <- energy + energy_from_eat();
 	}
-	
 	float energy_from_eat {
     return 0.0;
     }
