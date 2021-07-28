@@ -213,9 +213,19 @@ global {
 	float prey_proba_reproduce <- 0.01;
 	int prey_nb_max_offsprings <- 5;
 	float prey_energy_reproduce <- 0.5;
+	// 定义食肉动物的全局参数
+	int nb_predators_init <- 20;
+	float predator_max_energy <- 1.0;
+	float predator_energy_transfert <- 0.5;
+	float predator_energy_consum <- 0.02;
+	float predator_proba_reproduce <- 0.01;
+	int predator_nb_max_offsprings <- 3;
+	float predator_energy_reproduce <- 0.5;
 	//初始化
 	init {
 		//创建食草动物数量为nb_preys_init
+		create prey number: nb_preys_init;
+		//创建食肉动物数量为nb_preys_init
 		create prey number: nb_preys_init;
 	}
 }
