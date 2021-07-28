@@ -41,7 +41,7 @@ grid vegetation_cell width: 50 height: 50 neighbors: 4 {
 	float max_food <- 1.0;
 	//每次模拟网格中食物量随机增加的数值（0-0.01）
 	float food_prod <- rnd(0.01);
-	//每个网格初始能量值为（0-1）的随机数，每次模拟更新加food_prod，最大值为max_food
+	//每个网格初始食物量为（0-1）的随机数，每次模拟更新加food_prod，最大值为max_food
 	float food <- rnd(1.0) max: max_food update: food + food_prod;
 	//根据能量值的大小，网格的颜色也会发生变化
 	rgb color <- rgb(int(255 * (1 - food)), 255, int(255 * (1 - food))) update: rgb(int(255 * (1 - food)), 255, int(255 * (1 - food)));
