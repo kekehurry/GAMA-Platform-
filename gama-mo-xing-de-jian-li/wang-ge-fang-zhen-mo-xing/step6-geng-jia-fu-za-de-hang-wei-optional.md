@@ -49,5 +49,24 @@ global {
 
 之前在编写食草与食肉动物的移动时，我们移动的逻辑是向周围相距为2的网格随机移动，现在我们利用条件语句实现更加复杂的移动逻辑。
 
+首先，在父族中添加choose_cell函数，子族通过重写choose\_cell实现不同的移动逻辑_
+
+```text
+species generic_species {
+    ...
+    reflex basic_move {
+    my_cell <- choose_cell();
+    location <- my_cell.location; 
+    } 
+    //使用choose_cell函数来确定移动行为的目的地
+    vegetation_cell choose_cell {
+    return nil;
+    }
+    ...
+}
+```
+
+> **nil**： nil表示控空值
+
 
 
