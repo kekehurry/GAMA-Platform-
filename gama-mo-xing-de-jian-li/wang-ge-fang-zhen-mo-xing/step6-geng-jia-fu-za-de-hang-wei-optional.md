@@ -23,7 +23,7 @@ global {
 		//通过ask函数在初始化时修改vegetation_cell的属性
 		ask vegetation_cell {
 		//grid_x,grid_y是vegetation_cell的内置属性，返回其位置
-		
+		//将草地网格的颜色设置为相同位置上图像的颜色
     color <- rgb (map_init at {grid_x,grid_y}) ;
     food <- 1 - (((color as list) at 0) / 255) ;
     food_prod <- food / 100 ; 
