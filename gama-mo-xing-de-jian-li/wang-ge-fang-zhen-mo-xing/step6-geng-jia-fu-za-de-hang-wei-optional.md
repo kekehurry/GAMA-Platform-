@@ -68,5 +68,47 @@ species generic_species {
 
 > **nil**： nil表示控空值
 
+在食草动物子族中，重写choose\_cell
+
+```text
+species prey parent: generic_species {
+    ...  
+    vegetation_cell choose_cell {
+        //选择相距为2的网格中食物量最大的那个
+        return (my_cell.neighbors2) with_max_of (each.food);
+    }
+    ...
+}
+```
+
+> **each**: each指代列表中的每个元素，因为food是vegetation\_cell的属性，不是my\_cell.neighbors2这个列表的属性，因此这里用each.food，列出my\_cell.neighbors2中每个元素的food属性，并用**with\_max\_of** 返回最大值
+
+在食肉动物子族中，重写choose\_cell
+
+```text
+species predator parent: generic_species {
+    ...
+    vegetation_cell choose_cell {
+        // 选择第一个遇到的，相距为2且其中有食草动物的网格
+        vegetation_cell my_cell_tmp <- shuffle(my_cell.neighbors2) first_with (!(empty (prey inside (each))));
+    // 如果这个网格存在
+    if my_ell_tmp != nil {
+        //将这个网格作为目的地
+        return my_cell_tmp;
+    //否则
+    } else {
+        //随机选择一个周边相距为2的网格作为目的地
+        return one_of (my_cell.neighbors2);
+    } 
+    }
+    ...
+}
+```
+
+> * **shuffle**: 以随机顺序打乱列表
+> * **first\_with** ： 返回符合条件的第一个元素
+> * **empty\(list\):**  判断列表是否为空,。 **!\(empty\(list\)\)** 判断列表是否不为空
+> * inside
+
 
 
