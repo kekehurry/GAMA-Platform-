@@ -56,7 +56,7 @@ species prey parent: generic_species {
 
 > TIPS：为了方便管理，GAMA的依赖文件都存储在includes文件夹
 
-![4.4.1 &#x98DF;&#x8349;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2811%29.png)
+![4.4.1 &#x98DF;&#x8349;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2815%29.png)
 
 食草动物图标如上，为了代码生效，需将食草动物图标下载（[下载链接](https://gama-platform.github.io/resources/images/tutorials/predator_prey_sheep.png)）到项目文件夹的 `includes/data/`  文件夹中，并将图片名称修改为`predator_prey_sheep.png`
 
@@ -71,7 +71,7 @@ species predator parent: generic_species {
 }
 ```
 
-![4.4.2 &#x98DF;&#x8089;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2812%29.png)
+![4.4.2 &#x98DF;&#x8089;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2817%29.png)
 
 同样的，将食肉动物图标下载（[下载链接](https://gama-platform.github.io/resources/images/tutorials/predator_prey_wolf.png)）到项目文件夹的 `includes/data/`  文件夹中，并将图片名称修改为`predator_prey_wolf.png`
 
@@ -349,7 +349,7 @@ experiment prey_predator type: gui {
 
 开始模拟，模拟界面将会出现两个窗口：main_\_display 和 info\_display:_
 
-![4.4.3 main\_display](../../.gitbook/assets/image%20%2813%29.png)
+![4.4.3 main\_display](../../.gitbook/assets/image%20%2818%29.png)
 
-![4.4.4 info\_display](../../.gitbook/assets/image%20%2810%29.png)
+![4.4.4 info\_display](../../.gitbook/assets/image%20%2813%29.png)
 
