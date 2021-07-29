@@ -20,9 +20,18 @@ global {
 	//初始化
 	init {
 		...
+		//通过ask函数在初始化时修改vegetation_cell的属性
+		ask vegetation_cell {
+		//grid_x,grid_y
+    color <- rgb (map_init at {grid_x,grid_y}) ;
+    food <- 1 - (((color as list) at 0) / 255) ;
+    food_prod <- food / 100 ; 
+    }
 	}
 	
 ```
+
+> TIPS: 图像文件读取后可以直接看成一个matrix二维数组进行操作，通过matix\[i,j\]可以读取图像在第i行第j列数据的值。
 
 ### 向附近的食物移动
 
