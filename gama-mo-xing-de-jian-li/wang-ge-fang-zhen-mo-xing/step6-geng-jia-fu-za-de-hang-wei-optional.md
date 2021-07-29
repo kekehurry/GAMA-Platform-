@@ -22,7 +22,8 @@ global {
 		...
 		//通过ask函数在初始化时修改vegetation_cell的属性
 		ask vegetation_cell {
-		//grid_x,grid_y
+		//grid_x,grid_y时vegetation_cell的内置属性，返回其位置
+		
     color <- rgb (map_init at {grid_x,grid_y}) ;
     food <- 1 - (((color as list) at 0) / 255) ;
     food_prod <- food / 100 ; 
