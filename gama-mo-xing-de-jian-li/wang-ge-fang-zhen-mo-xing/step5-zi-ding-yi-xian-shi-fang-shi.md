@@ -79,3 +79,27 @@ species predator parent: generic_species {
 
 接下来更改**experiment**中的显示方式：
 
+```text
+experiment prey_predator type: gui {
+	...
+	//定义输出
+	output {
+		display main_display {
+			grid vegetation_cell lines: #black;
+			//将prey族的显示方式更改为icon
+			species prey aspect: icon;
+			//将predator族的显示方式更改为icon
+			species predator aspect:icon;
+		}
+		//新增一个信息展示窗口
+		display info_display {
+    		grid vegetation_cell lines: #black ;
+    		//将prey族的显示方式更改为info
+        species prey aspect: info;
+        //将predator族的显示方式更改为info
+        species predator aspect: info;
+    }
+	}
+}
+```
+
