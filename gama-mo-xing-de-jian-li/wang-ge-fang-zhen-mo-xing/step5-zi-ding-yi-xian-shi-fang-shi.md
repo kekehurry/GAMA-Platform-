@@ -71,7 +71,7 @@ species predator parent: generic_species {
 }
 ```
 
-![4.4.2 &#x98DF;&#x8089;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2818%29.png)
+![4.4.2 &#x98DF;&#x8089;&#x52A8;&#x7269;&#x56FE;&#x6807;](../../.gitbook/assets/image%20%2819%29.png)
 
 同样的，将食肉动物图标下载（[下载链接](https://gama-platform.github.io/resources/images/tutorials/predator_prey_wolf.png)）到项目文件夹的 `includes/data/`  文件夹中，并将图片名称修改为`predator_prey_wolf.png`
 
@@ -349,7 +349,7 @@ experiment prey_predator type: gui {
 
 开始模拟，模拟界面将会出现两个窗口：main_\_display 和 info\_display:_
 
-![4.4.3 main\_display](../../.gitbook/assets/image%20%2820%29.png)
+![4.4.3 main\_display](../../.gitbook/assets/image%20%2821%29.png)
 
 ![4.4.4 info\_display](../../.gitbook/assets/image%20%2814%29.png)
 

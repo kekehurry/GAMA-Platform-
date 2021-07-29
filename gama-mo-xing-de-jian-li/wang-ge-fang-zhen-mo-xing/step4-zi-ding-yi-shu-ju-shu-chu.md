@@ -57,7 +57,7 @@ experiment prey_predator type: gui {
 
 再次运行模拟，模拟界面将会出现Monitors窗口。
 
-![4.5.4 &#x6570;&#x636E;&#x76D1;&#x7BA1;&#x5668;](../../.gitbook/assets/image%20%2821%29.png)
+![4.5.4 &#x6570;&#x636E;&#x76D1;&#x7BA1;&#x5668;](../../.gitbook/assets/image%20%2822%29.png)
 
 ### 图表输出
 
@@ -124,7 +124,7 @@ chart "Predator Energy Distribution" type: pie background: #lightgray size: {0.5
 
 最终结果如下图所示：
 
-![4.5.5 &#x56FE;&#x8868;&#x8F93;&#x51FA;](../../.gitbook/assets/image%20%2817%29.png)
+![4.5.5 &#x56FE;&#x8868;&#x8F93;&#x51FA;](../../.gitbook/assets/image%20%2818%29.png)
 
 ### 文件输出
 
