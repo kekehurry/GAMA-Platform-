@@ -20,6 +20,7 @@
   * [Step7 模型参数的优化\(Optional\)](gama-mo-xing-de-jian-li/wang-ge-fang-zhen-mo-xing/step7-mo-xing-can-shu-de-you-hua-optional.md)
 * [交通仿真模型](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/README.md)
   * [Step1: 加载GIS数据](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step1-jia-zai-gis-shu-ju.md)
+  * [Step2:  创建人群族](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step2-chuang-jian-ren-qun-zu.md)
 * [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
 
