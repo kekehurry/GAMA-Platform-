@@ -21,6 +21,7 @@
 * [交通仿真模型](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/README.md)
   * [Step1: 加载GIS数据](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step1-jia-zai-gis-shu-ju.md)
   * [Step2:  创建人群族](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step2-chuang-jian-ren-qun-zu.md)
+  * [Step3: 实现动态的道路损耗度展示](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step3-shi-xian-dong-tai-de-dao-lu-sun-hao-du-zhan-shi.md)
 * [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
 
