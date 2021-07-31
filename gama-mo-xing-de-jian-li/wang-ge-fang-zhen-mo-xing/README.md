@@ -4,6 +4,8 @@
 
 ### 模型概述
 
+![4.1 &#x6355;&#x98DF;&#x8005;&#x7F51;&#x683C;&#x4EFF;&#x771F;&#x6A21;&#x578B;](../../.gitbook/assets/image%20%2824%29.png)
+
 **族群（species）：**
 
 * **植物（vegetation\)：**
