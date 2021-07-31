@@ -182,7 +182,7 @@ experiment road_traffic type: gui {
 }
 ```
 
-本节最终代码如下：
+至此一个基本的交通仿真模型编写完成，本节最终代码如下：
 
 ```text
 //模型名称
