@@ -104,7 +104,7 @@ species people skills: [moving]{
 
 > **current\_date** : current\_date是一个内置的全局变量，调用current\_date系统会根据step的值返回当前时间，**current\_date.hour**即返回当前的小时数。  
 >   
-> **do goto target: ... on: ...** : goto是skill的内置函数，代理将会沿着关键字**on**所设置的图形以最短路径前往目的地。这里the\_graph是一个全局变量，我们会在初始化时为它赋值，详见下一小节。
+> **do goto target: ... on: ...** : goto是skill moving的内置函数，代理将会沿着关键字**on**所设置的图形以最短路径前往目的地。这里the\_graph是一个全局变量，我们会在初始化时为它赋值，详见下一小节。
 
 ### 初始化人群族
 
