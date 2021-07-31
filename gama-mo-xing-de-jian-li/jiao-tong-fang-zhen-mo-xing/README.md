@@ -4,6 +4,8 @@
 
 ### 模型概述
 
+![5.0 &#x4EA4;&#x901A;&#x4EFF;&#x771F;&#x6A21;&#x578B;](../../.gitbook/assets/image%20%2825%29.png)
+
 **族群（species）：**
 
 * **道路（Road\):**
