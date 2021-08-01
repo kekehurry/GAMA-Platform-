@@ -9,6 +9,8 @@ global {
     ...
     //初始人群数量
     int nb_people <- 100;
+    //路网图形
+    graph the_graph;
     
     init {
     ...
@@ -62,8 +64,6 @@ species people skills: [moving]{
     string objective ; 
     //移动的目的地
     point the_target <- nil ;
-    //路网图形（之后会在初始化时赋值）
-    graph the_graph;
     ...
 }
 ```
@@ -286,8 +286,6 @@ species people skills: [moving]{
     string objective ; 
     //移动的目的地
     point the_target <- nil ;
-    //路网图形（之后会在初始化时赋值）
-    graph the_graph;
     
     //当目前时间为上班时间并且活动状态为休息时
     reflex time_to_work when: current_date.hour = start_work and objective = "resting" {
