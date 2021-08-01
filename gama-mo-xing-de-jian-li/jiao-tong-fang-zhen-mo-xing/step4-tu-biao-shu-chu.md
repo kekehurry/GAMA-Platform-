@@ -29,7 +29,7 @@ experiment road_traffic type: gui {
 }
 ```
 
-> **mean\(container\)、max\(container\)**: 返回列表container的平均值/最大值。  
+> **mean\(**`container`**\)、max\(**`container`**\)**: 返回列表container的平均值/最大值。  
 >   
 > `container` **mean\_of/max\_of** `expression`: 返回对container元素进行expression操作后的平均值/最大值。  
 >   
