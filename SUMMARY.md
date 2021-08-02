@@ -24,6 +24,7 @@
   * [Step3: 动态的道路损耗度模拟](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step3-shi-xian-dong-tai-de-dao-lu-sun-hao-du-zhan-shi.md)
   * [Step4: 图表输出](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step4-tu-biao-shu-chu.md)
   * [Step5: 加入道路自动修复机制\(Optional\)](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step5-jia-ru-dao-lu-zi-dong-xiu-fu-ji-zhi-optional.md)
-* [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing.md)
+* [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/README.md)
+  * [GAMA的三维特性](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/gama-de-san-wei-te-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
 

@@ -4,9 +4,9 @@
 
 ### 模型概述
 
-![6.0 GAMA&#x7684;&#x4E09;&#x7EF4;&#x7279;&#x6027;](../.gitbook/assets/image%20%2826%29.png)
+![6.0 GAMA&#x7684;&#x4E09;&#x7EF4;&#x7279;&#x6027;](../../.gitbook/assets/image%20%2826%29.png)
 
-![6.1 &#x4E09;&#x7EF4;&#x4EFF;&#x771F;&#x6A21;&#x578B;](../.gitbook/assets/image%20%2827%29.png)
+![6.1 &#x4E09;&#x7EF4;&#x4EFF;&#x771F;&#x6A21;&#x578B;](../../.gitbook/assets/image%20%2827%29.png)
 
 
 
