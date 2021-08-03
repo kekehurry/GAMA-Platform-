@@ -39,9 +39,81 @@ experiment Tuto3D  type: gui {
 
 运行模型，模拟界面将默认显示模型的顶视图，此时按住`ctrl +鼠标左键` 可以转动模型。
 
-![6.1.1 &#x7B80;&#x5355;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2828%29.png)
+![6.1.1 &#x7B80;&#x5355;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2829%29.png)
+
+此时模型只在x,y平面有自动显示出来的边界线，接下来，我们为模型添加三维边界的显示。
+
+```text
+global{
+    ...
+    //在全局定义中增加环境大小参数
+    int environment_size <-100;
+    //定义全局代理的形状为边长为100的立方体
+    geometry shape <- cube(environment_size);  
+    ...
+}
+//实验设置
+experiment Tuto3D  type: gui {
+  ...
+  output {
+    display View1 type: opengl {
+      ...
+      //在显示中增加环境的显示
+      graphics "env" {
+        draw cube(environment_size) color: #black empty: true;  
+      }
+    }
+  }
+}
+```
+
+
+
+
+
+
+
+![6.1.2 &#x5E26;&#x8FB9;&#x754C;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2828%29.png)
 
 ### 三维移动
 
+除了三维显示，GAMA也内置了三维移动的函数，通过给代理添加`moving3D`的技能便能实现三维移动。
+
+```text
+species cell skills: [moving3D]{ 
+  //实现代理在三维空间中随机移动
+  reflex move{
+    do wander;
+  } 
+  //cell族显示为蓝色的半径为1的小球                    
+  aspect default {
+    draw sphere(1) color: #blue;   
+  }
+}
+```
+
+> **wander**:  `wander`为GAMA内置的运动方式，表现为无目的地漫游。
+
 ### 三维连接
+
+最后，我们来实现当代理小球之间的距离小于一定值时，为这些相距较近的代理添加连接线。
+
+```text
+species cell skills: [moving3D] {
+	...创建一个列表
+	list<cell> neighbors;
+
+	reflex compute_neighbors {
+		neighbors <- cell select ((each distance_to self) < 10);
+	}
+
+	aspect default {
+		draw sphere(environment_size * 0.01) color: #orange;
+		loop pp over: neighbors {
+			draw line([self.location, pp.location]);
+		}
+	}
+```
+
+
 
