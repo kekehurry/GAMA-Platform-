@@ -117,5 +117,17 @@ species cell skills: [moving3D] {
 	}
 ```
 
+同时，修改实验设置中的显示。
 
+```text
+experiment Tuto3D type: gui {
+	...
+	output {
+	  //将显示背景设置为深蓝色
+		display View1 type: opengl background: rgb(10, 40, 55) {
+			...
+		}
+	}
+}
+```
 
