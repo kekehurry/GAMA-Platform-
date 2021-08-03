@@ -25,6 +25,6 @@
   * [Step4: 图表输出](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step4-tu-biao-shu-chu.md)
   * [Step5: 加入道路自动修复机制\(Optional\)](gama-mo-xing-de-jian-li/jiao-tong-fang-zhen-mo-xing/step5-jia-ru-dao-lu-zi-dong-xiu-fu-ji-zhi-optional.md)
 * [三维仿真模型](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/README.md)
-  * [GAMA的三维特性](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/gama-de-san-wei-te-xing.md)
+  * [Step1: GAMA的三维特性](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/gama-de-san-wei-te-xing.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
 
