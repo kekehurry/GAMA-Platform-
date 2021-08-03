@@ -100,15 +100,17 @@ species cell skills: [moving3D]{
 
 ```text
 species cell skills: [moving3D] {
-	...创建一个列表
+	...
+	//创建一个列表neighbors
 	list<cell> neighbors;
-
+	//每次更新列表值为与自身相距10以内的其他代理
 	reflex compute_neighbors {
 		neighbors <- cell select ((each distance_to self) < 10);
 	}
 
 	aspect default {
 		draw sphere(environment_size * 0.01) color: #orange;
+		//遍历neighbors列表，在列表元素与自身之间连线
 		loop pp over: neighbors {
 			draw line([self.location, pp.location]);
 		}
