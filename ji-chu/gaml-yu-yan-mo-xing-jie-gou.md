@@ -4,7 +4,7 @@
 
 GAMA模型的文件结构主要由工作空间（Workspace）、项目（Project）、模型\(Model\)组成。
 
-* **工作空间是（Workspace）**所有GAMA模型存储的文件夹，首次启动GAMA时，便会要求设置工作空间路径。
+* **工作空间（Workspace）**是所有GAMA模型存储的文件夹，首次启动GAMA时，便会要求设置工作空间路径。
 * **项目（Project）**是一个包括原始数据和模型文件的文件夹，一个项目可以包含多个模型。在GAMA的导航栏&gt;User models&gt;右键New&gt;Gama Project，可以新建一个项目文件夹，新建的项目文件夹一般包含两个文件夹includes（用来存放关联数据的文件夹）和models（用来存放模型的文件夹）。
 * **模型（Model\)** 在models文件夹右键New&gt;Model file即可新建一个模型文件，进行仿真模拟程序的编写。
 
