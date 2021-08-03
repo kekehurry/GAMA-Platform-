@@ -211,7 +211,7 @@ species prey {
 	}
 	
 	//显示方式：大小为size的圆，颜色为color
-	aspect base {
+	aspect default {
 		draw circle(size) color: color;
 	}
 }

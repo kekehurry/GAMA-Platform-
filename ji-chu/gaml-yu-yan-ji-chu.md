@@ -78,7 +78,7 @@ GAML逻辑运算符主要有 **and、or** 以及 **！**\(表示not\)，**！** 
 ```text
 bool a <- true or false;
 bool b <- true and false;
-bool c <- ! true;
+bool c <- !true;
 ```
 
 ### 比较运算
