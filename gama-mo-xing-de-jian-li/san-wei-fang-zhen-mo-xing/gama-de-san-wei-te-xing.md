@@ -39,7 +39,7 @@ experiment Tuto3D  type: gui {
 
 运行模型，模拟界面将默认显示模型的顶视图，此时按住`ctrl +鼠标左键` 可以转动模型。
 
-![6.1.1 &#x7B80;&#x5355;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2832%29.png)
+![6.1.1 &#x7B80;&#x5355;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2833%29.png)
 
 此时模型只在x,y平面有自动显示出来的边界线，接下来，我们为模型添加三维边界的显示。
 
@@ -73,7 +73,7 @@ experiment Tuto3D  type: gui {
 
 
 
-![6.1.2 &#x5E26;&#x8FB9;&#x754C;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2830%29.png)
+![6.1.2 &#x5E26;&#x8FB9;&#x754C;&#x7684;&#x4E09;&#x7EF4;&#x663E;&#x793A;](../../.gitbook/assets/image%20%2831%29.png)
 
 ### 三维移动
 
@@ -133,7 +133,7 @@ experiment Tuto3D type: gui {
 
 至此，一群在三维空间中随机运动的粒子，且粒子相距较近时会自动连接旁边其他粒子的仿真模型便搭建完毕。
 
-![6.1.3 &#x4E09;&#x7EF4;&#x8FDE;&#x63A5;](../../.gitbook/assets/image%20%2831%29.png)
+![6.1.3 &#x4E09;&#x7EF4;&#x8FDE;&#x63A5;](../../.gitbook/assets/image%20%2832%29.png)
 
 本节完整代码如下：
 
