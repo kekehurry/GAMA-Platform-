@@ -114,7 +114,7 @@ species people skills: [moving] {
 }
 ```
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![6.3.1 &#x6574;&#x5408;GIS&#x6570;&#x636E;](../../.gitbook/assets/image%20%2833%29.png)
 
 本节完整代码如下：
 
