@@ -33,7 +33,7 @@ species building {
 }
 ```
 
-> **`schedules`：**可以理解为时间调度表，将schedules设置为空，则代理与时间有关的行为均失效。
+> **`schedules`：**可以理解为时间调度表，将schedules设置为空，则代理行为均失效。
 
 现在，我们将建筑的显示方式改为：
 
