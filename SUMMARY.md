@@ -32,8 +32,4 @@
   * [Step5: 多层次代理的交互](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step6-dai-li-de-duo-ceng-ci-jiao-hu.md)
   * [Step6: 微分方程的应用（Optional）](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step7-wei-fen-fang-cheng-de-ying-yong.md)
   * [Step7: 进阶的三维模型展示（Optional）](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step7-jin-jie-de-san-wei-mo-xing-zhan-shi-optional.md)
-* [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing/README.md)
-  * [Step1: 搭建流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing/step1-da-jian-liu-gan-chuan-bo-mo-xing.md)
-  * [Step2: 定义数据输出](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing/step2-ding-yi-shu-ju-shu-chu.md)
-  * [Step3: 模型参数的优化](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing/step3-mo-xing-can-shu-de-you-hua.md)
 
