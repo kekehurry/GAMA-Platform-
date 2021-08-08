@@ -28,9 +28,8 @@
   * [Step1: GAMA的三维特性](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/gama-de-san-wei-te-xing.md)
   * [Step2: 简单的传播模拟](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step2-jian-dan-de-chuan-bo-mo-ni.md)
   * [Step3: 整合GIS数据](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step3-zheng-he-gis-shu-ju.md)
-  * [Step4: 图表数据输出](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step4-ren-qun-huo-dong-de-mo-ni.md)
-  * [Step5: 加入三维可视化](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step5-jia-ru-san-wei-ke-shi-hua.md)
-  * [Step6: 代理的多层次交互](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step6-dai-li-de-duo-ceng-ci-jiao-hu.md)
-  * [Step7: 微分方程的应用](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step7-wei-fen-fang-cheng-de-ying-yong.md)
+  * [Step4: 三维可视化与图表输出](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step4-ren-qun-huo-dong-de-mo-ni.md)
+  * [Step5: 代理的多层次交互](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step6-dai-li-de-duo-ceng-ci-jiao-hu.md)
+  * [Step6: 微分方程的应用](gama-mo-xing-de-jian-li/san-wei-fang-zhen-mo-xing/step7-wei-fen-fang-cheng-de-ying-yong.md)
 * [流感传播模型](gama-mo-xing-de-jian-li/liu-gan-chuan-bo-mo-xing.md)
 
