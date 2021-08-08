@@ -6,17 +6,17 @@
 
 标准传播模型将人群分为两种，S\(Susceptible，易感人群）、I\(Infected，感染人群）。
 
-![6.6.1 &#x6807;&#x51C6;SI&#x6A21;&#x578B;](../../.gitbook/assets/image%20%2836%29.png)
+![6.6.1 &#x6807;&#x51C6;SI&#x6A21;&#x578B;](../../.gitbook/assets/image%20%2837%29.png)
 
 在标准SI传播模型中S和T随时间变化的微分方程为：
 
-![6.6.2 SI&#x6A21;&#x578B;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;](../../.gitbook/assets/image%20%2841%29.png)
+![6.6.2 SI&#x6A21;&#x578B;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;](../../.gitbook/assets/image%20%2845%29.png)
 
 这里 β 为传染率，传播方程对传染病的研究帮助很大，除了SI模型，还有SIR、SIRS、SEIR模型等。这里我们只使用SI模型模拟病毒的传染与爆发。
 
 令S=499,I=1,beta=0.4,且步长h=0.1对SI模型进行求解，可得S、I 随时间变化曲线如下图：
 
-![6.6.3 SI&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x66F2;&#x7EBF;](../../.gitbook/assets/image%20%2838%29.png)
+![6.6.3 SI&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x66F2;&#x7EBF;](../../.gitbook/assets/image%20%2840%29.png)
 
 ### GAMA中实现SI模型
 

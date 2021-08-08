@@ -70,7 +70,7 @@ global  {
 
 > **`accumulate`**：accumulate 和 collect 类似，区别在与accumulate 返回的是列表，collect 返回值可以是任何容器。
 
-![6.5.1 &#x5728;&#x5EFA;&#x7B51;&#x65CF;&#x4E2D;&#x521B;&#x5EFA;&#x4EBA;&#x7FA4;&#x5B50;&#x65CF;](../../.gitbook/assets/image%20%2840%29.png)
+![6.5.1 &#x5728;&#x5EFA;&#x7B51;&#x65CF;&#x4E2D;&#x521B;&#x5EFA;&#x4EBA;&#x7FA4;&#x5B50;&#x65CF;](../../.gitbook/assets/image%20%2843%29.png)
 
 本节完整代码如下：
 
