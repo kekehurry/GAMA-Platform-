@@ -123,9 +123,9 @@ experiment main_experiment type: gui {
 }
 ```
 
-![6.4.1 &#x4E09;&#x7EF4;&#x53EF;&#x89C6;&#x5316;&#x754C;&#x9762;](../../.gitbook/assets/image%20%2837%29.png)
+![6.4.1 &#x4E09;&#x7EF4;&#x53EF;&#x89C6;&#x5316;&#x754C;&#x9762;](../../.gitbook/assets/image%20%2842%29.png)
 
-![6.4.2 &#x56FE;&#x6807;&#x8F93;&#x51FA;&#x754C;&#x9762;](../../.gitbook/assets/image%20%2835%29.png)
+![6.4.2 &#x56FE;&#x6807;&#x8F93;&#x51FA;&#x754C;&#x9762;](../../.gitbook/assets/image%20%2837%29.png)
 
 本节完整代码如下：
 
