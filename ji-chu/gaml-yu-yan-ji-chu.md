@@ -15,10 +15,10 @@ GAML的基本数据类型 有**整数int 、浮点数float、字符串string**�
 
 ```text
 string text;                // 在GAML中'//'是注释，表示其后的内容不会被认为是代码                                               
-text -< 'Hello World';      // '-<'是赋值操作，
-int a -< 3;                 // GAML每一行代码都以';'结束
-float b -< 4;               // GAML会对基础数据类型进行自动转换
-bool c -< a=b;              // GAML中'='是判定是否相等，不是赋值
+text <- 'Hello World';      // '<-'是赋值操作，
+int a <- 3;                 // GAML每一行代码都以';'结束
+float b <- 4;               // GAML会对基础数据类型进行自动转换
+bool c <- a=b;              // GAML中'='是判定是否相等，不是赋值
 write(c);                   // 不在交互式命令行窗口时，可用write来输出变量的值
 ```
 
