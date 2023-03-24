@@ -1,4 +1,4 @@
-#中文文档
+# 中文文档
 https://837082742.gitbook.io/gama-platform/
 
 # 简介
